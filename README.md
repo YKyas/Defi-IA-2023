@@ -4,6 +4,9 @@
 
 ![alt text](https://github.com/YKyas/Defi-IA-2023/blob/master/final.jpg)
 
+Vous trouverez dans ce github notre travail pour la compétition Kaggle Defi IA 2023.
+Nous avons fini 28/76. Notre meilleur modèle a atteint un score de 20,47.
+Nous avons effectué plusieurs tests en utilisant l'interface gradio et les résultats étaient cohérents. Par exemple, avec tous les autres paramètres fixés, nous obtenons des prix bas lorsque les dates de réservation et d'entrée sont différentes et relativement plus élevés dans l'autre cas. Il en va de même lorsque nous ajoutons des services tels que le parking ou l'accès à la piscine.
 ## Organisation du Projet
 ```
 |
