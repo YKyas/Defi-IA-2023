@@ -1,0 +1,4 @@
+FROM defiia:BaseImage 
+WORKDIR  webapp
+EXPOSE 7860
+CMD ["python3","app.py"]

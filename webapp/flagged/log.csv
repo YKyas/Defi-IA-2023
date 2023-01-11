@@ -1,0 +1,6 @@
+city,language,stock,date_min,date_max,mobile,group,brand,parking,pool,children_policy,output,flag,username,timestamp
+amsterdam,bulgarian,52,5,25,True,Accar Hotels,J.Halliday Inn,True,True,True,0,,,2023-01-08 14:25:31.380430
+amsterdam,bulgarian,52,5,25,True,Accar Hotels,J.Halliday Inn,True,True,True,0,,,2023-01-08 14:25:33.536105
+Amsterdam,finnish,0,0,0,False,finnish,finnish,False,False,False,0,,,2023-01-09 19:51:33.924352
+Amsterdam,finnish,0,0,0,False,finnish,finnish,False,False,False,0,,,2023-01-09 19:51:35.404212
+Amsterdam,finnish,0,0,0,False,finnish,finnish,False,False,False,0,,,2023-01-09 19:51:39.328805
