@@ -2,7 +2,7 @@
 1001 nights: prédire le prix d'une réservation d'hôtel
 </h1>
 
-![alt text](https://github.com/YKyas/Defi-IA-2023/blob/master/final.jpg)
+![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/final.jpg)
 
 Vous trouverez dans ce github notre travail pour la compétition Kaggle Defi IA 2023.
 Nous avons fini 28/76. Notre meilleur modèle a atteint un score de 20,47.
@@ -101,7 +101,7 @@ docker run -it -p  7860:7860  defiia:gradiov1
 ```
 Une fois l'application Gradio a bien démarré, vous pouvez copier une des liens (privé ou publique) proposés selon votre configuration et le coller sur la  barre de votre navigateur. Une page web sera afficher comme montre la figure ci-dessous pour choisir les entrées necessaires au modèle pour la prédictions. 
 
-![alt text](https://github.com/YKyas/Defi-IA-2023/blob/master/gradio.png)
+![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/gradio.png)
 
 <p align="center">Interface de l'application Gradio</p>
 
@@ -117,9 +117,9 @@ Vous pouvez utiliser le token **DefiIa** pour s'authentifier à jupyter. En cas 
 
 
 
-![alt text](https://github.com/YKyas/Defi-IA-2023/blob/master/juptoken.png)
+![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/juptoken.png)
 <p align="center">Authentification au niveau jupyter avec le token DefiIa </p>
 
-![alt text](https://github.com/YKyas/Defi-IA-2023/blob/master/jupinterface.png)
+![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/jupinterface.png)
 <p align="center">L'interface jupyter au niveau du dossier du projet</p>
 
