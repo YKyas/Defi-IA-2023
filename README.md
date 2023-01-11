@@ -1,5 +1,5 @@
 <h1 align="center">
-1001 nights: prédire le prix d'une réservation d'hôtel
+1001 nights: Prédire le prix d'une réservation d'hôtel
 </h1>
 
 ![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/final.jpg)
