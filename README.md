@@ -99,7 +99,7 @@ Nous commençons par l'application Gradio en exposant le port 7860 du hôte pour
 ```docker
 docker run -it -p  7860:7860  defiia:gradiov1 
 ```
-Une fois l'application Gradio a bien démarré, vous pouvez copier une des liens (privé ou publique) proposés selon votre configuration et le coller sur la  barre de votre navigateur. Une page web sera afficher comme montre la figure ci-dessous pour choisir les entrées necessaires au modèle pour la prédictions. 
+Une fois que l'application Gradio a bien démarré, vous pouvez copier une des liens (privé ou publique) proposés selon votre configuration et le coller sur la  barre de votre navigateur. Une page web sera afficher comme montre la figure ci-dessous pour choisir les entrées necessaires au modèle pour la prédictions. 
 
 ![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/gradio.png)
 
