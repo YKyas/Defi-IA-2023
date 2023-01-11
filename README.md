@@ -44,7 +44,7 @@ Nous avons effectué plusieurs tests en utilisant l'interface gradio et les rés
 ## Usage
 ### Etape 1 : Cloner ce repository
 
-Dans cet objectif vous pouvez executer les commande suivante: 
+Dans cet objectif, vous pouvez exécuter les commandes suivantes: 
 
 ```bash
 # Cloner le repo
@@ -55,7 +55,7 @@ cd Defi-IA-2023
 
 ### Etape 2 : Images docker
 
-Afin de créer les images docker nous pourrons suivre deux approches:
+Afin de créer les images docker, nous pourrons suivre deux approches:
 
 #### Approche 1: Build étape par étape
 Dans cette approche nous construisons une image de base contenant les dépendance du projet que nous utilisons pour construires les autres images.  
@@ -78,9 +78,9 @@ La troisième étape est de construire une image pour une application jupyter po
 docker build -t defiia:Jupv1 -f DockerfileJup .
 ```
 ####  Approche 2: One shot build
-La difference avec l'autre approche est que n'installe les dépendances à la création de chaque image du projet.
+La différence avec l'autre approche est le fait qu'on installe les dépendances à la création de chaque image du projet.
 
-Si vous ne voulez pas télécharger le modèle entraîné, vous pouvez utiliser les commandes suivantes qui permettent de télécharger automatiquement le modèle entraîné: 
+Si vous ne voulez pas télécharger le modèle entraîné, vous pouvez utiliser les commandes suivantes qui permettent de télécharger automatiquement le modèle entraîné pour vous: 
 
 Création de l'image de l'application Gradio en utilisant la commande suivante : 
 
@@ -99,7 +99,7 @@ Nous commençons par l'application Gradio en exposant le port 7860 du hôte pour
 ```docker
 docker run -it -p  7860:7860  defiia:gradiov1 
 ```
-Une fois que l'application Gradio a bien démarré, vous pouvez copier une des liens (privé ou publique) proposés selon votre configuration et le coller sur la  barre de votre navigateur. Une page web sera afficher comme montre la figure ci-dessous pour choisir les entrées necessaires au modèle pour la prédictions. 
+Une fois que l'application Gradio a bien démarré, vous pouvez copier un des liens (privé ou publique) proposés selon votre configuration et le coller sur la  barre de votre navigateur. Une page web sera affichée comme montre la figure ci-dessous pour choisir les entrées necessaires au modèle pour la prédiction. 
 
 ![alt text](https://github.com/YKyas/Defi-IA-2023/blob/main/gradio.png)
 
@@ -111,8 +111,8 @@ Le deuxième conteneur est le serveur jupyter. Pour cela, vous pouvez exécuter 
 docker run -it -p  8888:8888  defiia:Jupv1 
 ```
 
-Une page web comme montre la figure ci-dessous sera afficher en copiant un des liens affichés au moment du démarrage du conteneur. 
-Vous pouvez utiliser le token **DefiIa** pour s'authentifier à jupyter. En cas de problème un token est généré par défaut et affiché au niveau de la console au démarrage du conteneur.
+Une page web comme montre la figure ci-dessous sera affichée en copiant un des liens proposés au moment du démarrage du conteneur. 
+Vous pouvez utiliser le token **DefiIa** pour s'authentifier à jupyter. En cas de problème, un token est généré par défaut et affiché au niveau de la console au démarrage du conteneur.
 
 
 
