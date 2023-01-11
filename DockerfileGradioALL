@@ -1,0 +1,9 @@
+FROM python
+RUN git clone https://github.com/YKyas/Defi-IA-2023.git
+WORKDIR Defi-IA-2023
+RUN pip install -r requirements.txt
+WORKDIR models
+RUN wget https://drive.google.com/uc?id=1JKSCVvMCDbVyLiamoe1J77pMq5XPq8YJ -O regressor_xgb.joblib
+WORKDIR  ../webapp
+EXPOSE 7860
+CMD ["python3","app.py"]
